@@ -9,7 +9,8 @@
 <body>
 	<script>	
 
-  /* PEDIR COMIDA EN UN MENU
+  // PEDIR COMIDA EN UN MENU 
+
   let nombre = "cerveza"
   let cantidad = 2
 
@@ -32,14 +33,15 @@
   
   let precioTotal = cantidad * precioProducto
   console.log(`Costo a pagar, ${precioTotal} euros`
-  */
+  
 
-  /*
-  CALCULADORA AÑO BISIESTO
+  
+  /* CALCULADORA AÑO BISIESTO 
+
   condiciones:
   - Que el año sea divisible por 4
   - Que no sea divisible por 100 o que sea 
-  divisble por 400
+  divisble por 400 */
 
   let año = 2024
 
@@ -56,15 +58,16 @@
   } else {
     console.log("El año NO es bisiesto")
   }
-  */
+  
 
-  /* 
-  OFERTAS DE SUPERMERCADOS 
+   
+  /* OFERTAS DE SUPERMERCADOS 
+
   - Si es socio: 
   > 1EU gratis a partir de 25 EU
   > 5% descuento a partir de 50EU
   > 15EU gratis a partir de 100EU
-  > si no es socio: 5EU gratis a partir de 100EU
+  > si no es socio: 5EU gratis a partir de 100EU */
 
   let esSocio = true;
   let tiquet = 50; 
@@ -86,10 +89,10 @@
   }
 
   console.log(`El precio final del tiquet es ${tiquet} euros`)
-*/
 
-/*
-EJERCICIO: PROMEDIO DE NOTAS
+
+
+/* PROMEDIO DE NOTAS
 
 Crear un algoritmo que permita calcular el promedio de 2 notas: parcial y final. Si el promedio es mayor o igual a 10.5 entonces mostrar el mensaje aprobado, caso contrario desaprobado.
 
@@ -115,12 +118,11 @@ Sino
     Escribir("El promedio es ", promedio
     "DESAPROBADO")  
  Fin_si   
- 
 
- CODIGO => 
-*/
+ ¡CODIGO! => */
 
  let parcial,final,promedio;
+
  parcial = parseFloat(prompt("Parcial"));
  final = parseFloat(prompt("Final"));
  promedio = (parcial + final) / 2;
@@ -133,22 +135,22 @@ Sino
   console.log(`El promedio es ${promedio}, DESAPROBADO ☺`)
  }
 
- 
 
 
  // ¿ERES CULPABLE O NO?
 
-//  let culpable = window.prompt("¿Eres culpable?");
+ let culpable = window.prompt("¿Eres culpable?");
 
-//  if (culpable == "si") {
-//   console.log("Eres culpable, irás a la carcel rata.")
-//  } else if (culpable == "no") {
-//   console.log("No eres culpable, puedes irte.")
-//  } else if (culpable == "") {
-//   console.log("¿Eres sordo?, entregame tu documentanción")
-//  } else {
-//   console.log("la documentanción por favor")
-//  }
+ if (culpable == "si") {
+  console.log("Eres culpable, irás a la carcel rata.")
+ } else if (culpable == "no") {
+  console.log("No eres culpable, puedes irte.")
+ } else if (culpable == "") {
+  console.log("¿Eres sordo?, entregame tu documentanción")
+ } else {
+  console.log("la documentanción por favor")
+ }
+ 
  
 
  
